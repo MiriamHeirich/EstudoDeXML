@@ -1,0 +1,182 @@
+---------------------------
+Controle de Transportadoras
+---------------------------
+A operação de Envio do CT-e não pôde ser realizada.
+Mensagens de erro:
+- 28-> Falha na validação dos dados do Conhecimento: 28
+Element '{http://www.portalfiscal.inf.br/cte}infDoc' cannot be empty according to the 
+DTD/Schema.
+---------------------------
+&OK
+---------------------------
+A operação de Envio do MDF-e não pôde ser realizada.
+Mensagens de erro:
+-
+Falha na validação do Modal do Manifesto: 2543
+TAG:<infModal versaoModal="3.00"><infModal versaoModal="3.00"><infModal 
+versaoModal="3.00"><rodo><infANTT><infCIOT> ID:#05/CIOT(Código Identificador da 
+Operação de Transporte) - Tamanho maior que o máximo permitido [165.013.530.793].
+'165.013.530.793' viola a restrição pattern de '[0-9]{12}'.
+Falha da análise do elemento '{http://www.portalfiscal.inf.br/mdfe}CIOT' com valor 
+'165.013.530.793'.
+---------------------------
+&OK
+---------------------------
+Controle de Transportadoras
+---------------------------
+A operação de Envio do MDF-e não pôde ser realizada.
+Mensagens de erro:
+- 
+Falha na validação do Modal do Manifesto: 20
+TAG:<infModal versaoModal="3.00"><infModal versaoModal="3.00"><infModal 
+versaoModal="3.00"><rodo><veicTracao><prop> ID:#16/UF(Código do UF (Unidade 
+da Federação)) - Nenhum valor informado.
+TAG:<infModal versaoModal="3.00"><infModal versaoModal="3.00"><infModal 
+versaoModal="3.00"><rodo><veicTracao><prop> ID:#16/UF(Sigla da UF) - Conteúdo 
+inválido.
+'' violates enumeration constraint of 'AC AL AM AP BA CE DF ES GO MA MG MS MT 
+PA PB PE PI PR RJ RN RO RR RS SC SE SP TO EX'.
+The element '{http://www.portalfiscal.inf.br/mdfe}UF' with value '' failed to parse.
+---------------------------
+&OK
+---------------------------
+---------------------------
+Controle de Transportadoras
+---------------------------
+A operação de Envio do MDF-e não pôde ser realizada.
+Mensagens de erro:
+- 
+Falha na validação do Modal do Manifesto: 21
+TAG:<infModal versaoModal="3.00"><infModal versaoModal="3.00"><infModal 
+versaoModal="3.00"><rodo><veicTracao> ID:#06a/RENAVAM(RENAVAM) - Tamanho 
+menor que o mínimo permitido [99].
+'99' violates minLength constraint of '9'.
+The element '{http://www.portalfiscal.inf.br/mdfe}RENAVAM' with value '99' failed to 
+parse.
+---------------------------
+&OK
+---------------------------
+Controle de Transportadoras
+---------------------------
+A operação de Envio do MDF-e não pôde ser realizada.
+Mensagens de erro:
+- 
+Falha na validação dos dados do Manifesto: 21
+'1899-12-30T00:00:00-03:00' violates pattern constraint of '(((20(([02468][048])|([13579]
+[26]))-02-29))|(20[0-9][0-9])-((((0[1-9])|(1[0-2]))-((0[1-9])|(1\d)|(2[0-8])))|((((0[13578])|
+(1...'.
+The element '{http://www.portalfiscal.inf.br/mdfe}dhEmi' with value '1899-12-30T00:00:
+00-03:00' failed to parse.
+---------------------------
+&OK
+---------------------------
+
+CT-e Rejeição sem endereço de destino parte 2 "A operação de Envio do CT-e não 
+pôde ser realizada.
+Mensagens de erro:
+- 1609-> Falha na validação dos dados do Conhecimento: 1609
+TAG:<infModal versaoModal=""3.00""><infModal versaoModal=""3.00""><ide> ID:
+#030/cMunFim(Código do Município onde o CT-e está sendo emitido) - Conteúdo 
+inválido.
+TAG:<infModal versaoModal=""3.00""><infModal versaoModal=""3.00""><ide> ID:
+#031/xMunFim(Nome do Município) - Nenhum valor informado.
+TAG:<infModal versaoModal=""3.00""><infModal versaoModal=""3.00""><ide> ID:
+#032/UFFim(Sigla da UF) - Nenhum valor informado.
+TAG:<infModal versaoModal=""3.00""><infModal versaoModal=""3.00""><ide> ID:
+#032/UFFim(Sigla da UF) - Conteúdo inválido.
+'' viola a restrição pattern de '[!-ÿ]{1}[ -ÿ]{0,}[!-ÿ]{1}|[!-ÿ]{1}'.
+Falha da análise do elemento '{http://www.portalfiscal.inf.br/cte}xMunFim' com valor ''.
+---------------------------
+&OK
+---------------------------
+Carta de correção Erro carta de correção "---------------------------
+Controle de Transportadoras
+---------------------------
+Ocorreu um erro na geração da Carta de Correção Eletrônica (CC-e).
+Mensagem de erro: Falha na validação dos dados do Evento: 'NF-e 37091 - Cavalo: 
+BCJ2J08 Carreta: AUQ0231/;VAGNER CARDOSO RODRIGUES (00843953039) - 
+Gerenciamento de risco: 254086;INCLU...' viola a restrição maxLength de '500'.
+Falha da análise do elemento '{http://www.portalfiscal.inf.br/cte}valorAlterado' com 
+valor 'NF-e 37091 - Cavalo: BCJ2J08 Carreta: AUQ0231/;VAGNER CARDOSO 
+RODRIGUES (00843953039) - Gerenciamento de risco: 254086;INCLU...'.
+---------------------------
+&OK
+--------------------------- "
+---------------------------
+Controle de Transportadoras
+---------------------------
+A operação de Envio do CT-e não pôde ser realizada.
+Mensagens de erro:
+- 237-> Falha na validação do Modal do Conhecimento: 237
+TAG:<infModal versaoModal="3.00"><infModal versaoModal="3.00"><ide> ID:
+#008/natOp(Descrição da Natureza da Operação) - Nenhum valor informado.
+TAG:<infModal versaoModal="3.00"><infModal versaoModal="3.00"><emit> ID:
+#099/IE(Inscrição Estadual) - Nenhum valor informado.
+TAG:<infModal versaoModal="3.00"><infModal versaoModal="3.00"
+><infCTeNorm><infModal versaoModal="3.00"><rodo> ID:#02/RNTRC(Registro 
+Nacional de Transportadores Rodoviários de Carga) - Nenhum valor informado.
+'' violates pattern constraint of '[0-9]{8}|ISENTO'.
+The element '{http://www.portalfiscal.inf.br/cte}RNTRC' with value '' failed to parse.
+---------------------------
+&OK
+---------------------------
+---------------------------
+CT-e Prático
+---------------------------
+A operação de Envio do CT-e não pôde ser realizada.
+Mensagens de erro:
+- 6935-> Falha na validação dos dados do Conhecimento: 6935
+TAG:<infModal versaoModal="3.00"><infModal versaoModal="3.00"
+><dest><enderDest> ID:#186/xLgr(Logradouro) - Nenhum valor informado.
+TAG:<infModal versaoModal="3.00"><infModal versaoModal="3.00"
+><dest><enderDest> ID:#189/xBairro(Bairro) - Nenhum valor informado.
+'' viola a restrição pattern de '[!-ÿ]{1}[ -ÿ]{0,}[!-ÿ]{1}|[!-ÿ]{1}'.
+Falha da análise do elemento '{http://www.portalfiscal.inf.br/cte}xLgr' com valor ''.
+---------------------------
+&OK
+---------------------------
+---------------------------
+Controle de Transportadoras
+---------------------------
+A operação de Envio do CT-e não pôde ser realizada.
+Mensagens de erro:
+- 9-> Falha na validação dos dados do Conhecimento: 9
+Element '{http://www.portalfiscal.inf.br/cte}infDoc' cannot be empty according to the 
+DTD/Schema.
+---------------------------
+&OK
+--------------------------
+---------------------------
+Falha no Envio da NF-e
+---------------------------
+A operação de Envio da NF-e não pôde ser realizada.
+Falha na validação dos dados da nota: 17
+O elemento '{http://www.portalfiscal.inf.br/nfe}vBCFCPST' é inesperado, de acordo 
+com o modelo de conteúdo do elemento pai '{http://www.portalfiscal.inf.br/nfe}
+ICMSSN900'.
+Esperado: {http://www.portalfiscal.inf.br/nfe}modBCST, {http://www.portalfiscal.inf.
+br/nfe}pCredSN.
+---------------------------
+&OK
+---------------------------
+---------------------------
+CT-e Prático
+---------------------------
+A operação de Envio do CT-e não pôde ser realizada.
+Mensagens de erro:
+- 390-> Falha na validação do Modal do Conhecimento: 390
+TAG:<CTeOS xmlns="http://www.portalfiscal.inf.br/cte" versao="3.00"><infCte 
+versao="3.00" Id="CTe31220406296474000109670010000003901000004800"
+><infModal versaoModal="3.00"><CTeOS xmlns="http://www.portalfiscal.inf.br/cte" 
+versao="3.00"><infCte versao="3.00" Id="
+CTe31220406296474000109670010000003901000004800"><infModal versaoModal="
+3.00"><CTeOS xmlns="http://www.portalfiscal.inf.br/cte" versao="3.00"><infCte 
+versao="3.00" Id="CTe31220406296474000109670010000003901000004800"
+><infCTeNorm><infModal versaoModal="3.00"><rodoOS><veic><prop> ID:
+#11/NroRegEstadual(Número do Registro Estadual) - Nenhum valor informado.
+'' violates pattern constraint of '[0-9]{25}'.
+The element '{http://www.portalfiscal.inf.br/cte}NroRegEstadual' with value '' failed to 
+parse.
+---------------------------
+OK
+---------------------------

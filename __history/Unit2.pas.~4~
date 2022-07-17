@@ -1,0 +1,40 @@
+unit Unit2;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TForm2 = class(TForm)
+    Memo1: TMemo;
+    btnProcurar: TButton;
+    procedure btnProcurarClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form2: TForm2;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm2.btnProcurarClick(Sender: TObject);
+var
+  i: Integer;
+begin
+  for i := 0 to Memo1.Lines.Count - 1 do
+  begin
+    if pos('cte}email', Memo1.Lines[i]) > 0 then
+    Continue;
+
+    ShowMessage( 'Razão Social do Destinatário excede o máximo permitido de 60 caracteres');
+  end;
+end;
+
+end.

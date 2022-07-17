@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<erro1>Email do Destinatário Inválido, O Email deve seguir o padrão teste  </erro1>
+
+<erro2>Razão Social do Destinatario excede o máximo permitido de 60 caracteres</erro2>
+
+<erro3>CTe está sem Nota Fiscal ou outro documento vinculado na Parte 3</erro3>
+
+<erro4>No MDF-e o campo CIOT foi informado como "165.013.530.793" que viola a regra de ser apenas número com 12 caracteres</erro4>
+
+<erro5>CTe está sem Nota Fiscal ou outro documento vinculado na Parte 3</erro5>
+
+<erro6>Não informada a cidade do Proprietário do veículo no MDF-e</erro6>
+
+<erro7>Renavam informado inválido, deve ter 9 caracteres</erro7>
+
+<erro8>Não informada a data de emissão do MDF-e</erro8>
+
+<erro9>Cidade de Destino não informada na Parte 2 do CT-e</erro9>
+
+<erro10>Observação ultrapassou 500 caracteres, esse é o limite da Carta de Correção</erro10>
+
+<erro11>RNTRC não informado, casos que que a ATividade secundária está ativa e não possui Proprietário informado no CT-e ou o mesmo está sem RNTRC</erro11>
+
+<erro12>Bairro do Destinatário não informado</erro12>
+
+<erro13>"Esse erro ocorre porque o FCPST estava preenchido e o Parâmetro NFE_DEVOLUCAO_TIPO_CALCULO está como ""Informar a Base de Cálculo e o Valor do ICMS ST apenas 
+em Dados Adicionais, adicionando o valor em Outros e no Total da NF-e"" fazendo com que a construção do XML ficasse incompleta.
+Alterando para que os dados de ICMS ST vão para os respectivos campos do XML a emissão foi feita normalmente"</erro13>
+
+
+
+
+
+
+
+
+
+
