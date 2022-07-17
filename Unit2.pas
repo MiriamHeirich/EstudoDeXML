@@ -10,8 +10,9 @@ type
   TForm2 = class(TForm)
     Memo1: TMemo;
     btnProcurar: TButton;
+    Button1: TButton;
     procedure btnProcurarClick(Sender: TObject);
-    procedure FormCreate(Sender: TObject);
+    procedure Button1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -33,17 +34,17 @@ begin
   begin
     if pos('cte}email', Memo1.Lines[i]) > 0 then
     ShowMessage( 'Email do Destinatário Inválido.O mail deve seguir o padrão "teste@teste.com" ou "teste@teste.com.br')
-  else  if
+  else if
    pos('cte}xNome', Memo1.Lines[i]) > 0 then
     ShowMessage( 'Razão Social do Destinatário excede o máximo permitido de 60 caracteres')
  else  if
    pos('cte}infDoc', Memo1.Lines[i]) > 0 then
-    ShowMessage( 'CT-e está sem Nota fiscal ou outro documento vinculado na Parte 3');end;
+    ShowMessage( 'CT-e está sem Nota fiscal ou outro documento vinculado na Parte 3');end; }
 end;
 
-procedure TForm2.FormCreate(Sender: TObject);
+procedure TForm2.Button1Click(Sender: TObject);
 begin
-   Memo1.Lines.LoadFromFile('C:\CursoDelphi');
+  Memo1.Lines.LoadFromFile('D:\Arquivos do Usuario\Desktop\XML\ErrosXSD\RetornoDeErros.txt');
 end;
 
 end.

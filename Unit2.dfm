@@ -11,7 +11,6 @@ object Form2: TForm2
   Font.Name = 'Tahoma'
   Font.Style = []
   OldCreateOrder = False
-  OnCreate = FormCreate
   PixelsPerInch = 96
   TextHeight = 13
   object Memo1: TMemo
@@ -24,12 +23,21 @@ object Form2: TForm2
     TabOrder = 0
   end
   object btnProcurar: TButton
-    Left = 232
-    Top = 200
+    Left = 352
+    Top = 209
     Width = 75
     Height = 25
     Caption = 'Procurar'
     TabOrder = 1
     OnClick = btnProcurarClick
+  end
+  object Button1: TButton
+    Left = 128
+    Top = 209
+    Width = 75
+    Height = 25
+    Caption = 'Inserir'
+    TabOrder = 2
+    OnClick = Button1Click
   end
 end

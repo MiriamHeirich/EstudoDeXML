@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions>
-    <Transaction>2022/07/17 11:45:35.691,=D:\Arquivos do Usuario\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
-    <Transaction>2022/07/17 12:11:17.732,D:\Arquivos do Usuario\Desktop\XML\Unit2.pas=D:\Arquivos do Usuario\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
-    <Transaction>2022/07/17 12:11:17.732,D:\Arquivos do Usuario\Desktop\XML\Unit2.dfm=D:\Arquivos do Usuario\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
-    <Transaction>2022/07/17 12:11:20.603,D:\Arquivos do Usuario\Desktop\XML\Project2.dproj=D:\Arquivos do Usuario\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+	<Transactions>
+    <Transaction>2022/07/17 11:45:35.000.691,=D:\Arquivos do Usuario\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2022/07/17 12:11:17.000.732,D:\Arquivos do Usuario\Documents\Embarcadero\Studio\Projects\Unit2.dfm=D:\Arquivos do Usuario\Desktop\XML\Unit2.dfm</Transaction>
+    <Transaction>2022/07/17 12:11:17.000.732,D:\Arquivos do Usuario\Documents\Embarcadero\Studio\Projects\Unit2.pas=D:\Arquivos do Usuario\Desktop\XML\Unit2.pas</Transaction>
+    <Transaction>2022/07/17 12:11:20.000.603,D:\Arquivos do Usuario\Documents\Embarcadero\Studio\Projects\Project2.dproj=D:\Arquivos do Usuario\Desktop\XML\Project2.dproj</Transaction>
   </Transactions>
 </BorlandProject>
